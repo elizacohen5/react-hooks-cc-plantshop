@@ -41,6 +41,12 @@
       "name": "Fiddle Leaf Fig",
       "image": "./images/fiddle-leaf-fig.jpg",
       "price": 55
+    },
+    {
+      "name": "Bonsai",
+      "image": "https://m.media-amazon.com/images/I/71nm7AvxjDL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
+      "price": "110.18",
+      "id": 8
     }
   ]
 }

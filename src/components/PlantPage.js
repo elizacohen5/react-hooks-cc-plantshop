@@ -26,13 +26,31 @@ function PlantPage() {
     return lowerCasePlant.includes(lowerCaseSearch);
   });
 
+  function handleUpdatePlant(updatedPlant) {
+    const updatedPlants = plants.map((plant) => {
+      if (plant.id === updatedPlant.id) {
+        return updatedPlant;
+      } else {
+        return plant
+      }
+    })
+    setPlants(updatedPlants)
+  }
+
+  function handleDeletePlant(deletedPlant) {
+    const updatedPlants = plants.filter(
+      (plant) => plant.id !== deletedPlant.id
+    );
+    setPlants(updatedPlants);
+  }
+
   const plantCardList = plantsToDisplay.map((plant) => {
     return (
       <PlantCard
         key={plant.id}
-        name={plant.name}
-        price={plant.price}
-        image={plant.image}
+        plant={plant}
+        handleUpdatePlant={handleUpdatePlant}
+        handleDeletePlant={handleDeletePlant}
       />
     );
   });

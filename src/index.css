@@ -119,6 +119,24 @@ input:focus {
     flex-wrap: wrap;
   }
 
+  .update-price {
+    font-size: small;
+    width: 50%;
+    margin-right: 10px;
+  }
+
+  .update-price-button {
+    margin-right: 10px;
+    width: 30%;
+  }
+
+  #delete-button {
+    margin-left: 10px;
+    padding-left: 9px;
+    background-color: rgb(232, 116, 116);
+    width: 10%;
+  }
+
   .card {
     width: calc(33% - 2rem);
   }

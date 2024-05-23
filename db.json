@@ -4,7 +4,7 @@
       "id": 1,
       "name": "Aloe",
       "image": "./images/aloe.jpg",
-      "price": 15.99
+      "price": "20.99"
     },
     {
       "id": 2,
@@ -16,7 +16,7 @@
       "id": 3,
       "name": "Pilea peperomioides",
       "image": "./images/pilea.jpg",
-      "price": 5.99
+      "price": ""
     },
     {
       "id": 4,
@@ -45,14 +45,8 @@
     {
       "name": "Bonsai",
       "image": "https://m.media-amazon.com/images/I/71nm7AvxjDL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
-      "price": "110.18",
+      "price": "50.56",
       "id": 8
-    },
-    {
-      "name": "Cactus ",
-      "image": "https://media.greg.app/cGxhbnQtZGItcGhvdG9zL0RvX0NhY3RpX05lZWRfU3VuLmpwZw==?format=pjpeg&optimize=high&auto=webp&precrop=688:516,smart&fit=crop&width=688&height=516",
-      "price": "3.99",
-      "id": 9
     }
   ]
 }
